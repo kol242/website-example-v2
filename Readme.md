@@ -1,5 +1,7 @@
 # React Website Example v2 - getting started
 
+![Webpage image](https://i.imgur.com/nFGaDIg.jpg)
+
 To run the script, first clone or download this repository on your PC, then follow next steps.
 
 ## Running the app
