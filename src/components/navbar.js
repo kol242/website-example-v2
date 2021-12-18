@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./navbar.css";
 import { FaReact } from "react-icons/fa";
+import { ExternalLink } from 'react-external-link';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -37,21 +38,23 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to={"//github.com/kol242"} className="nav-links" onClick={closeMobileMenu}>
+                <ExternalLink href="https://github.com/kol242" className="nav-links" onClick={closeMobileMenu}>
                   GitHub
-                </Link>
+                </ExternalLink>
               </li>
               <li className="nav-item">
-                <Link
-                  to={"//www.linkedin.com/in/valentino-kolinger-96236a19a/"}
+                <ExternalLink
+                  href="https://www.linkedin.com/in/valentino-kolinger-96236a19a/"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   LinkedIn
-                </Link>
+                </ExternalLink>
               </li>
             </ul>
-            {button && <Button buttonStyle="btn--outline">Portfolio</Button>}
+            {button && <Button buttonStyle="btn--outline">
+              Portfolio
+              </Button>}
           </div>
         </div>
       </nav>

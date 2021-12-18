@@ -16,7 +16,7 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          Visit my portfolio
+         Visit my portfolio
         </Button>
       </div>
     </div>
