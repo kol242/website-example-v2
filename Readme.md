@@ -1,4 +1,4 @@
-# React Website Example v2 - getting started
+# Website Example v2
 
 ![Webpage image](https://i.imgur.com/nFGaDIg.jpg)
 
